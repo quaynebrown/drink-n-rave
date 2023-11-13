@@ -87,3 +87,15 @@
         user-select: none; /* Standard syntax */ 
     }
 }
+
+@media only screen and (max-width: 947px) {
+    .galleryWrap .single  {
+      width: calc((100% / 2) - 20px);
+    }
+  }
+
+@media only screen and (max-width: 480px) {
+    .galleryWrap .single  {
+      width: calc(100% - 20px);
+    }
+}
