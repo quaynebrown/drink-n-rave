@@ -1,0 +1,29 @@
+header{
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.header-container{
+    display: flex;
+    justify-content: center;
+    background-image: url("../../images/header/DrinkNRaveWebsiteBannerBackground.png");
+    background-size:cover;
+    background-repeat: no-repeat;
+    padding: 50px 0;
+    height: 100vh;
+}
+
+
+h1 {
+    font-size: 80px;
+    background: -webkit-linear-gradient(#1abeda, #7b27b8);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 2px white;
+}
+
+.title-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
