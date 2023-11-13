@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/drink-n-rave/static/css/main.86780428.css",
+    "main.js": "/drink-n-rave/static/js/main.225a0ae2.js",
+    "static/js/787.9c2ef332.chunk.js": "/drink-n-rave/static/js/787.9c2ef332.chunk.js",
+    "static/media/DrinkNRaveWebsiteBannerBackground.png": "/drink-n-rave/static/media/DrinkNRaveWebsiteBannerBackground.dc06ed646f295d53d9e2.png",
+    "index.html": "/drink-n-rave/index.html",
+    "main.86780428.css.map": "/drink-n-rave/static/css/main.86780428.css.map",
+    "main.225a0ae2.js.map": "/drink-n-rave/static/js/main.225a0ae2.js.map",
+    "787.9c2ef332.chunk.js.map": "/drink-n-rave/static/js/787.9c2ef332.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.86780428.css",
+    "static/js/main.225a0ae2.js"
+  ]
+}
