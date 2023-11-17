@@ -2,7 +2,7 @@
   "name": "drink-n-rave",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://<quaynebrown>.github.io/<drink-n-rave>",
+  // "homepage": "http://quaynebrown.github.io/drink-n-rave",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.4.2",
     "@fortawesome/free-solid-svg-icons": "^6.4.2",
@@ -10,6 +10,7 @@
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "file-saver": "^2.0.5",
     "firebase": "^10.4.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",

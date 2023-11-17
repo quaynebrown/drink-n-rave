@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'; 
 import { faCircleChevronLeft, faCircleChevronRight, faCircleXmark } from '@fortawesome/free-solid-svg-icons';
+import { saveAs } from 'file-saver'
 
 const Gallery = ({images}) => {
     const [slideNumber, setSlideNumber] = useState(0);
@@ -25,6 +26,10 @@ const Gallery = ({images}) => {
         slideNumber + 1 === images.length ? setSlideNumber(0) : setSlideNumber(slideNumber + 1)
     }
 
+    // const downloadImage = (imageUrl) => {
+    //     saveAs(`${imageUrl}`, 'image.jpg') // Put your image URL here.
+    //   }
+
 
     return(
         <div>
@@ -44,13 +49,14 @@ const Gallery = ({images}) => {
             <div className='galleryWrap'>
             {
                 
-                images && images.map((slide, index) => {
+                images && images.map((slideUrl, index) => {
                     return(
                         <div 
                         className='single' 
                         key={index}
                         onClick={() => handleOpenModal(index)}>
-                            <img src={slide} alt={`Drink N Rave image ${index + 1}`} loading='lazy' />
+                            <img src={slideUrl} alt={`Drink N Rave image ${index + 1}`} loading='lazy' />
+                            {/* <button onClick={() => saveAs(slide.toString() + ".jpg", "Drink N Rave.jpg")}>download</button> */}
                         </div>
                     )
                 })
